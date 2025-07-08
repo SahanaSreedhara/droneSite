@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dronale Live Entertainment | The Future of Performance is in the Air</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-helicopter"></i>
+                <span>Dronale</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#use-cases" class="nav-link">Use Cases</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="drone-animation">
+                <i class="fas fa-helicopter drone"></i>
+                <i class="fas fa-helicopter drone"></i>
+                <i class="fas fa-helicopter drone"></i>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text">Dronale Live Entertainment</span>
+            </h1>
+            <p class="hero-subtitle">"The Future of Performance is in the Air."</p>
+            <p class="hero-description">
+                Redefining live entertainment with autonomous drone technology, immersive visuals, 
+                and real-time audience intelligence.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('products')">
+                    <i class="fas fa-play"></i>
+                    Explore Products
+                </button>
+                <button class="btn btn-secondary" onclick="showDemo()">
+                    <i class="fas fa-video"></i>
+                    Watch Demo
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="products-grid">
+                <div class="product-card" data-aos="fade-up">
+                    <div class="product-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Dronale ConcertCast</h3>
+                    <p>Autonomous drone fleets capture concerts in stunning 4K HDR with multi-angle feeds and real-time viewer controls.</p>
+                    <ul class="product-features">
+                        <li><i class="fas fa-check"></i> 4K HDR Capture</li>
+                        <li><i class="fas fa-check"></i> 5G/BVLOS Support</li>
+                        <li><i class="fas fa-check"></i> App-based Controls</li>
+                        <li><i class="fas fa-check"></i> AI Highlights</li>
+                        <li><i class="fas fa-check"></i> Integrated Effects</li>
+                    </ul>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Dronale Insight</h3>
+                    <p>Entertainment Edition monitors social media sentiment and provides actionable insights for continuous improvement.</p>
+                    <ul class="product-features">
+                        <li><i class="fas fa-check"></i> Social Media Monitoring</li>
+                        <li><i class="fas fa-check"></i> Sentiment Analysis</li>
+                        <li><i class="fas fa-check"></i> Trend Mining</li>
+                        <li><i class="fas fa-check"></i> Real-time Reports</li>
+                        <li><i class="fas fa-check"></i> Feedback Loop</li>
+                    </ul>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USPs Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Dronale?</h2>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="zoom-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Immersive Experience</h3>
+                    <p>Audiences switch between drone angles in real time, creating personalized viewing experiences.</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Visual Innovation</h3>
+                    <p>Spectacular pyrotechnics, drone choreographies, and lighting effects that captivate audiences.</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Creative Feedback Loop</h3>
+                    <p>Fan sentiment directly fuels creative and technical development for continuous improvement.</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Modular Flexibility</h3>
+                    <p>Adaptable setups for both indoor and outdoor venues of any size.</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Insight Engine</h3>
+                    <p>Specialized sentiment models designed specifically for drone entertainment analytics.</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Cost Efficiency</h3>
+                    <p>Replace expensive legacy rigs with innovative drone solutions at a fraction of the cost.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="use-cases" id="use-cases">
+        <div class="container">
+            <h2 class="section-title">Key Entertainment Use Cases</h2>
+            <div class="use-cases-grid">
+                <div class="use-case-card" data-aos="slide-up">
+                    <div class="use-case-image">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Major Festivals & Tours</h3>
+                    <p>Transform events like Coachella, Glastonbury, and Super Bowl Halftime with breathtaking aerial cinematography.</p>
+                    <div class="use-case-examples">
+                        <span class="tag">Coachella</span>
+                        <span class="tag">Glastonbury</span>
+                        <span class="tag">Super Bowl</span>
+                    </div>
+                </div>
+                <div class="use-case-card" data-aos="slide-up" data-aos-delay="200">
+                    <div class="use-case-image">
+                        <i class="fas fa-guitar"></i>
+                    </div>
+                    <h3>Artist Stadium Performances</h3>
+                    <p>Enhance artist performances with drone orchestras and dynamic aerial choreographies for unforgettable shows.</p>
+                    <div class="use-case-examples">
+                        <span class="tag">Rolling Loud</span>
+                        <span class="tag">Drone Orchestras</span>
+                        <span class="tag">Stadium Tours</span>
+                    </div>
+                </div>
+                <div class="use-case-card" data-aos="slide-up" data-aos-delay="400">
+                    <div class="use-case-image">
+                        <i class="fas fa-ship"></i>
+                    </div>
+                    <h3>Indoor & Specialty Venues</h3>
+                    <p>Bring the magic to indoor malls, cruise ships, and unique venues with customized drone entertainment.</p>
+                    <div class="use-case-examples">
+                        <span class="tag">Dubai Mall</span>
+                        <span class="tag">Royal Caribbean</span>
+                        <span class="tag">Special Events</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing/Strategy Section -->
+    <section class="strategy">
+        <div class="container">
+            <h2 class="section-title">Our Approach</h2>
+            <div class="strategy-content">
+                <div class="strategy-item" data-aos="fade-right">
+                    <div class="strategy-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Tiered Offerings</h3>
+                    <p>From Basic (3-5 drones) to Premium packages with full choreographies and app control, plus optional Insight add-ons.</p>
+                </div>
+                <div class="strategy-item" data-aos="fade-left">
+                    <div class="strategy-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Demo Experiences</h3>
+                    <p>Small-scale light and fog shows to demonstrate the transformative power of drone entertainment.</p>
+                </div>
+                <div class="strategy-item" data-aos="fade-right">
+                    <div class="strategy-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Pilot Network</h3>
+                    <p>Expanding reach through our network of certified drone pilots and regional partnerships.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Ready to Transform Your Event?</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Let's discuss how Dronale can elevate your next live entertainment experience.</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@dronale.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-DRONE</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Los Angeles, CA</span>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="">Select Service</option>
+                            <option value="concertcast">Dronale ConcertCast</option>
+                            <option value="insight">Dronale Insight</option>
+                            <option value="custom">Custom Solution</option>
+                            <option value="demo">Demo Request</option>
+                        </select>
+                        <label for="service">Service Interest</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-helicopter"></i>
+                        <span>Dronale</span>
+                    </div>
+                    <p>The Future of Performance is in the Air.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#products">ConcertCast</a></li>
+                        <li><a href="#products">Insight</a></li>
+                        <li><a href="#use-cases">Use Cases</a></li>
+                        <li><a href="#contact">Custom Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#home">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dronale Live Entertainment. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Modal -->
+    <div class="modal" id="demo-modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <h3>Demo Video</h3>
+            <div class="demo-video">
+                <div class="video-placeholder">
+                    <i class="fas fa-play-circle"></i>
+                    <p>Experience the future of live entertainment</p>
+                    <small>Demo video coming soon</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
