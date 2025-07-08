@@ -13,7 +13,7 @@ const Footer = () => {
             {/* Company Info */}
             <div className="footer-section">
               <div className="footer-logo">
-                <span className="logo-text">Dronale</span>
+                <span className="logo-text">Sky Fleat</span>
                 <span className="logo-subtitle">Live Entertainment</span>
               </div>
               <p className="footer-description">
@@ -51,9 +51,9 @@ const Footer = () => {
             {/* Contact Info */}
             <div className="footer-section">
               <h3>Contact</h3>
-              <div className="contact-info">
-                <p>📧 sales@dronale.com</p>
-                <p>📞 +1 (555) 123-DRONE</p>
+                             <div className="contact-info">
+                 <p>📧 sales@skyfleat.com</p>
+                 <p>📞 +1 (555) 123-FLEAT</p>
                 <p>🌍 Serving events worldwide</p>
                 <p>⚡ 24/7 support during events</p>
               </div>
@@ -66,7 +66,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="container">
           <div className="footer-bottom-content">
-            <p>&copy; {currentYear} Dronale Live Entertainment. All rights reserved.</p>
+            <p>&copy; {currentYear} Sky Fleat Live Entertainment. All rights reserved.</p>
             <div className="footer-social">
               <a href="#" aria-label="Twitter">🐦</a>
               <a href="#" aria-label="LinkedIn">💼</a>

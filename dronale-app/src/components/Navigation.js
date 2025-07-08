@@ -23,7 +23,7 @@ const Navigation = () => {
       <div className="nav-container">
         <div className="nav-logo">
           <Link to="/" onClick={closeMenu}>
-            <span className="logo-text">Dronale</span>
+            <span className="logo-text">Sky Fleat</span>
             <span className="logo-subtitle">Live Entertainment</span>
           </Link>
         </div>

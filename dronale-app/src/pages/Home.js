@@ -7,7 +7,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">Dronale Live Entertainment</h1>
+          <h1 className="hero-title">Sky Fleat Live Entertainment</h1>
           <p className="hero-subtitle">"The Future of Performance is in the Air."</p>
           <p className="hero-description">
             Redefining the global live entertainment experience by fusing autonomous drone technology 
@@ -62,7 +62,7 @@ const Home = () => {
           <h2>Our Solutions</h2>
           <div className="products-grid">
             <div className="product-card">
-              <h3>Dronale ConcertCast</h3>
+              <h3>Sky Fleat ConcertCast</h3>
               <p>Autonomous drone fleets capture concerts in 4K HDR with multi-angle feeds, 5G/BVLOS support, and app-based viewer controls.</p>
               <ul>
                 <li>AI-powered highlight generation</li>
@@ -71,7 +71,7 @@ const Home = () => {
               </ul>
             </div>
             <div className="product-card">
-              <h3>Dronale Insight</h3>
+              <h3>Sky Fleat Insight</h3>
               <p>Entertainment-focused sentiment analysis monitoring Reddit, Twitter, Instagram, and YouTube for actionable insights.</p>
               <ul>
                 <li>Real-time sentiment monitoring</li>

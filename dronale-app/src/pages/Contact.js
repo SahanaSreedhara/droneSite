@@ -29,7 +29,7 @@ const Contact = () => {
       {/* Header */}
       <section className="contact-header">
         <div className="container">
-          <h1>Get Started with Dronale</h1>
+          <h1>Get Started with Sky Fleat</h1>
           <p>Ready to revolutionize your live entertainment? Let's talk.</p>
         </div>
       </section>
@@ -115,17 +115,17 @@ const Contact = () => {
               <h2>Get in Touch</h2>
               
               <div className="contact-methods">
-                <div className="contact-method">
-                  <h3>📧 Email</h3>
-                  <p>sales@dronale.com</p>
-                  <p>support@dronale.com</p>
-                </div>
+                                 <div className="contact-method">
+                   <h3>📧 Email</h3>
+                   <p>sales@skyfleat.com</p>
+                   <p>support@skyfleat.com</p>
+                 </div>
                 
-                <div className="contact-method">
-                  <h3>📞 Phone</h3>
-                  <p>+1 (555) 123-DRONE</p>
-                  <p>Available 24/7 for events</p>
-                </div>
+                                 <div className="contact-method">
+                   <h3>📞 Phone</h3>
+                   <p>+1 (555) 123-FLEAT</p>
+                   <p>Available 24/7 for events</p>
+                 </div>
                 
                 <div className="contact-method">
                   <h3>🌍 Global Reach</h3>

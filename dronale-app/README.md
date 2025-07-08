@@ -1,7 +1,7 @@
-# Dronale Live Entertainment
+# Sky Fleat Live Entertainment
 *"The Future of Performance is in the Air."*
 
-A modern React web application showcasing Dronale's revolutionary drone entertainment platform that transforms live events with autonomous drone technology, immersive visuals, and real-time audience intelligence.
+A modern React web application showcasing Sky Fleat's revolutionary drone entertainment platform that transforms live events with autonomous drone technology, immersive visuals, and real-time audience intelligence.
 
 ## 🚀 Features
 
@@ -40,8 +40,8 @@ A modern React web application showcasing Dronale's revolutionary drone entertai
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd dronale-app
+       git clone <repository-url>
+    cd skyfleat-app
    ```
 
 2. **Install dependencies**
@@ -60,7 +60,7 @@ A modern React web application showcasing Dronale's revolutionary drone entertai
 ## 🏗️ Project Structure
 
 ```
-dronale-app/
+skyfleat-app/
 ├── public/
 │   ├── index.html
 │   └── favicon.ico
@@ -131,8 +131,8 @@ dronale-app/
 
 ## 🌟 Business Context
 
-### Dronale Live Entertainment
-Dronale revolutionizes live entertainment by combining:
+### Sky Fleat Live Entertainment
+Sky Fleat revolutionizes live entertainment by combining:
 - **Autonomous Drone Technology**: 4K HDR capture with AI-powered flight paths
 - **Real-time Interaction**: Audience-controlled camera angles and perspectives
 - **Sentiment Intelligence**: Social media monitoring and trend analysis
@@ -174,11 +174,11 @@ The application is fully responsive and optimized for:
 
 ## 📄 License
 
-This project is for demonstration purposes. All rights reserved by Dronale Live Entertainment.
+This project is for demonstration purposes. All rights reserved by Sky Fleat Live Entertainment.
 
 ## 🤝 Contributing
 
-This is a showcase project for Dronale Live Entertainment. For suggestions or improvements, please contact the development team.
+This is a showcase project for Sky Fleat Live Entertainment. For suggestions or improvements, please contact the development team.
 
 ---
 

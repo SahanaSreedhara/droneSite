@@ -7,7 +7,7 @@ const About = () => {
       {/* Header */}
       <section className="about-header">
         <div className="container">
-          <h1>About Dronale</h1>
+          <h1>About Sky Fleat</h1>
           <p>Pioneering the future of live entertainment technology</p>
         </div>
       </section>

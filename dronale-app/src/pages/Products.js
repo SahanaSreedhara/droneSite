@@ -18,7 +18,7 @@ const Products = () => {
           <div className="product-content">
             <div className="product-info">
               <span className="product-label">Product A</span>
-              <h2>Dronale ConcertCast</h2>
+              <h2>Sky Fleat ConcertCast</h2>
               <p className="product-description">
                 Autonomous drone fleets that capture concerts in stunning 4K HDR, providing 
                 multi-angle feeds with 5G/BVLOS support and app-based viewer controls.
@@ -95,10 +95,10 @@ const Products = () => {
         <div className="container">
           <div className="product-content reverse">
             <div className="product-visual">
-              <div className="insight-dashboard">
-                <div className="dashboard-header">
-                  <h4>Dronale Insight Dashboard</h4>
-                </div>
+                             <div className="insight-dashboard">
+                 <div className="dashboard-header">
+                   <h4>Sky Fleat Insight Dashboard</h4>
+                 </div>
                 <div className="dashboard-content">
                   <div className="metric-card">
                     <span className="metric-label">Sentiment Score</span>
@@ -117,7 +117,7 @@ const Products = () => {
             </div>
             <div className="product-info">
               <span className="product-label">Product B</span>
-              <h2>Dronale Insight</h2>
+              <h2>Sky Fleat Insight</h2>
               <p className="product-description">
                 Entertainment Edition sentiment analysis that monitors Reddit, Twitter, Instagram, 
                 and YouTube to provide actionable insights for continuous improvement.
