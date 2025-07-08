@@ -79,21 +79,33 @@ const About = () => {
           <div className="solution-features">
             <div className="solution-feature">
               <div className="feature-number">01</div>
+              <div className="feature-image">
+                <img src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=300&h=200&fit=crop&crop=center" alt="Autonomous Drone Fleet" />
+              </div>
               <h3>Autonomous Drone Fleets</h3>
               <p>Advanced AI-powered drones that capture stunning 4K HDR footage with precision and safety.</p>
             </div>
             <div className="solution-feature">
               <div className="feature-number">02</div>
+              <div className="feature-image">
+                <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=200&fit=crop&crop=center" alt="Real-time Interaction" />
+              </div>
               <h3>Real-time Interaction</h3>
               <p>Audiences can switch between drone angles, request specific shots, and influence the show.</p>
             </div>
             <div className="solution-feature">
               <div className="feature-number">03</div>
+              <div className="feature-image">
+                <img src="https://images.unsplash.com/photo-1580859788002-6cdbcfe44e82?w=300&h=200&fit=crop&crop=center" alt="Sentiment Intelligence" />
+              </div>
               <h3>Sentiment Intelligence</h3>
               <p>Real-time monitoring of social media to understand audience reactions and preferences.</p>
             </div>
             <div className="solution-feature">
               <div className="feature-number">04</div>
+              <div className="feature-image">
+                <img src="https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=300&h=200&fit=crop&crop=center" alt="Creative Enhancement" />
+              </div>
               <h3>Creative Enhancement</h3>
               <p>Integrated lighting, pyrotechnics, and effects that respond to both music and audience energy.</p>
             </div>

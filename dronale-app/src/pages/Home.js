@@ -29,6 +29,9 @@ const Home = () => {
 
       {/* Features Overview */}
       <section className="features">
+        <div className="features-background">
+          <img src="https://images.unsplash.com/photo-1580859788002-6cdbcfe44e82?w=1200&h=800&fit=crop&crop=center&opacity=10" alt="Drone Background" />
+        </div>
         <div className="container">
           <h2>Transforming Live Events</h2>
           <div className="features-grid">

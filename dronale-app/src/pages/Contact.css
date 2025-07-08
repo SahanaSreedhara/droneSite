@@ -8,7 +8,17 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 80px 0 100px;
-  text-align: center;
+}
+
+.header-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.header-text {
+  text-align: left;
 }
 
 .contact-header h1 {
@@ -19,6 +29,28 @@
 .contact-header p {
   font-size: 1.3rem;
   opacity: 0.9;
+}
+
+.header-drone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-drone img {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.2));
+  animation: contactFloat 4s ease-in-out infinite;
+}
+
+@keyframes contactFloat {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
 }
 
 /* Main Content */
@@ -350,6 +382,21 @@
 @media (max-width: 768px) {
   .contact-header h1 {
     font-size: 2.5rem;
+  }
+
+  .header-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .header-text {
+    text-align: center;
+  }
+
+  .header-drone img {
+    max-width: 300px;
+    height: 200px;
   }
   
   .contact-content {

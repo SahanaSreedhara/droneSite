@@ -160,11 +160,21 @@
 }
 
 .drone-model {
-  width: 200px;
+  width: 250px;
   height: 200px;
-  background: #fff;
-  border-radius: 50%;
+  background-image: url('https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=500&h=400&fit=crop&crop=center');
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
   position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.2));
+  animation: productFloat 4s ease-in-out infinite;
+}
+
+@keyframes productFloat {
+  0%, 100% { transform: translateY(0px) rotateY(0deg); }
+  50% { transform: translateY(-10px) rotateY(5deg); }
 }
 
 .feature-highlights {
@@ -247,6 +257,67 @@
   border-radius: 25px;
   font-size: 0.9rem;
   font-weight: 600;
+}
+
+/* Drone Gallery */
+.drone-gallery {
+  padding: 100px 0;
+  background: #f8f9fa;
+}
+
+.drone-gallery h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.drone-gallery > p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 60px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.gallery-item {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-10px);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-item h3 {
+  font-size: 1.3rem;
+  margin: 20px 20px 10px;
+  color: #333;
+}
+
+.gallery-item p {
+  color: #666;
+  margin: 0 20px 20px;
+  line-height: 1.5;
 }
 
 /* Pricing */
@@ -342,6 +413,14 @@
   
   .specs-grid {
     grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item img {
+    height: 150px;
   }
   
   .pricing-grid {

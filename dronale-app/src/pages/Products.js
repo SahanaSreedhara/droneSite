@@ -168,6 +168,37 @@ const Products = () => {
         </div>
       </section>
 
+      {/* Drone Gallery */}
+      <section className="drone-gallery">
+        <div className="container">
+          <h2>Our Drone Fleet</h2>
+          <p>Professional-grade drones designed for every entertainment scenario</p>
+          
+          <div className="gallery-grid">
+            <div className="gallery-item">
+              <img src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=300&h=200&fit=crop&crop=center" alt="Concert Drone" />
+              <h3>Concert Capture</h3>
+              <p>High-end drones for outdoor festivals and large venues</p>
+            </div>
+            <div className="gallery-item">
+              <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=200&fit=crop&crop=center" alt="Stadium Drone" />
+              <h3>Stadium Performance</h3>
+              <p>Heavy-duty drones for stadium shows and pyrotechnics</p>
+            </div>
+            <div className="gallery-item">
+              <img src="https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=300&h=200&fit=crop&crop=center" alt="Indoor Drone" />
+              <h3>Indoor Venues</h3>
+              <p>Compact, quiet drones for malls and cruise ships</p>
+            </div>
+            <div className="gallery-item">
+              <img src="https://images.unsplash.com/photo-1580859788002-6cdbcfe44e82?w=300&h=200&fit=crop&crop=center" alt="Light Show Drone" />
+              <h3>Light Show Specialist</h3>
+              <p>LED-equipped drones for choreographed light displays</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Tiers */}
       <section className="pricing">
         <div className="container">

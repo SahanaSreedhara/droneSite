@@ -29,8 +29,15 @@ const Contact = () => {
       {/* Header */}
       <section className="contact-header">
         <div className="container">
-          <h1>Get Started with Sky Fleat</h1>
-          <p>Ready to revolutionize your live entertainment? Let's talk.</p>
+          <div className="header-content">
+            <div className="header-text">
+              <h1>Get Started with Sky Fleat</h1>
+              <p>Ready to revolutionize your live entertainment? Let's talk.</p>
+            </div>
+            <div className="header-drone">
+              <img src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=400&h=300&fit=crop&crop=center" alt="Sky Fleat Drone System" />
+            </div>
+          </div>
         </div>
       </section>
 
