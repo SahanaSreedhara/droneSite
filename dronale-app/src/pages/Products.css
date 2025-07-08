@@ -1,0 +1,354 @@
+/* Products Page Styles */
+.products {
+  min-height: 100vh;
+}
+
+/* Header */
+.products-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 80px 0 100px;
+  text-align: center;
+}
+
+.products-header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.products-header p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+/* Product Detail Sections */
+.product-detail {
+  padding: 100px 0;
+}
+
+.product-detail.concertcast {
+  background: white;
+}
+
+.product-detail.insight {
+  background: #f8f9fa;
+}
+
+.product-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.product-content.reverse {
+  direction: rtl;
+}
+
+.product-content.reverse > * {
+  direction: ltr;
+}
+
+.product-label {
+  display: inline-block;
+  background: #4ecdc4;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.product-info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.product-description {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* Features List */
+.features-list h3 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.features-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border-left: 4px solid #4ecdc4;
+}
+
+.features-list li strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.features-list li span {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Tech Specs */
+.tech-specs {
+  margin-top: 40px;
+}
+
+.tech-specs h3 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.spec-item {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spec-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.spec-value {
+  color: #4ecdc4;
+  font-weight: bold;
+}
+
+/* Product Visuals */
+.product-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drone-showcase {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drone-model {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+
+.feature-highlights {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.highlight {
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Insight Dashboard */
+.insight-dashboard {
+  background: #1a1a2e;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.dashboard-header h4 {
+  margin-bottom: 20px;
+  color: #4ecdc4;
+}
+
+.dashboard-content {
+  display: grid;
+  gap: 15px;
+}
+
+.metric-card {
+  background: #16213e;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.metric-label {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.metric-value {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.metric-value.positive {
+  color: #4ecdc4;
+}
+
+/* Platforms */
+.platforms h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.platform-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.platform {
+  background: #667eea;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Pricing */
+.pricing {
+  padding: 100px 0;
+  background: #1a1a2e;
+  color: white;
+}
+
+.pricing h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.pricing-card {
+  background: #16213e;
+  padding: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+
+.pricing-card.premium {
+  border-color: #ff6b6b;
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 1.3rem;
+  color: #4ecdc4;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.pricing-card li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.popular {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ff6b6b;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .products-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .product-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .specs-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .platform-icons {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,375 @@
+/* Contact Page Styles */
+.contact {
+  min-height: 100vh;
+}
+
+/* Header */
+.contact-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 80px 0 100px;
+  text-align: center;
+}
+
+.contact-header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.contact-header p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+/* Main Content */
+.contact-main {
+  padding: 100px 0;
+  background: #f8f9fa;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+/* Contact Form */
+.contact-form-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact-form {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #4ecdc4;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.btn-primary {
+  background: #ff6b6b;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background: #ff5252;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
+}
+
+/* Contact Info */
+.contact-info-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact-methods {
+  margin-bottom: 40px;
+}
+
+.contact-method {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-method h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.contact-method p {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.response-time {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.response-time h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.response-time p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Sales Strategy */
+.sales-strategy {
+  padding: 100px 0;
+  background: white;
+}
+
+.sales-strategy h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #333;
+}
+
+.strategy-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.step {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.step-number {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.step h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.step p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Demo Options */
+.demo-options {
+  padding: 100px 0;
+  background: #f8f9fa;
+}
+
+.demo-options h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #333;
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.demo-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.demo-card:hover {
+  transform: translateY(-5px);
+}
+
+.demo-card.featured {
+  border: 2px solid #ff6b6b;
+}
+
+.demo-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.demo-card p {
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.demo-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.demo-card li {
+  padding: 8px 0;
+  padding-left: 25px;
+  position: relative;
+  color: #666;
+}
+
+.demo-card li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #4ecdc4;
+  font-weight: bold;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #667eea;
+  padding: 15px 30px;
+  border: 2px solid #667eea;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.btn-secondary:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.popular {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ff6b6b;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* FAQ */
+.faq {
+  padding: 100px 0;
+  background: #1a1a2e;
+  color: white;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+}
+
+.faq-item {
+  background: #16213e;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #0f3460;
+}
+
+.faq-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #4ecdc4;
+}
+
+.faq-item p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .contact-form {
+    padding: 30px 20px;
+  }
+  
+  .strategy-steps {
+    grid-template-columns: 1fr;
+  }
+  
+  .demo-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+}
